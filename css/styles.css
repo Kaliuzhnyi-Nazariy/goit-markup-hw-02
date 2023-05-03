@@ -1,42 +1,132 @@
-/* colors which I will use */
-/* titles main #2E2F42 */
-/* accent #4D5AE5; */
-/* white text #ffffff */
-/* text color #434455 */
-/* text in root background: #F4F4FD;*/
-
-/* colors root */
 :root {
-  --title-color: #2e2f42;
-  --text-color: #434455;
-  --accent: #4d5ae5;
-  --CTA: #404bbf ;
-}
-
-.logo {
-  color: var(--title-color);
-  font-family: "Raleway";
-  font-style: normal;
-  font-weight: 800;
-  font-size: 18px;
-  line-height: 21px;
-  text-decoration: none;
+  --general-text-color: #434455;
+  --footer-text-color: #f4f4fd;
+  --title-text-color: #2e2f42;
+  --primty-brand: #4d5ae5;
 }
 
 body {
+  background-color: #ffffff;
   font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
-  color: var(--text-color);
+  letter-spacing: 0.02em;
+  color: var(--general-text-color);
+}
+/* logo */
+.logo {
+  text-decoration: none;
+  color: var(--title-text-color);
+  text-transform: uppercase;
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 21px;
+  letter-spacing: 0.03em;
 }
 
+.web {
+  color: var(--primty-brand);
+}
+
+/* nav */
 .list {
   list-style: none;
-  text-decoration: inherit;
 }
 
-.site-nav> .link {
-  color: red;
+.site-nav .link {
+  text-decoration: none;
+  color: var(--title-text-color);
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--primty-brand);
+}
+
+/* address */
+
+.address {
+  list-style: none;
+}
+
+.address a:hover,
+.address a:focus {
+  list-style: none;
+  color: var(--primty-brand);
+}
+
+.address a {
+  text-decoration: none;
+  color: var(--general-text-color);
+  font-style: normal;
+}
+
+/* buttons */
+
+.button {
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.04em;
+  text-align: center;
+}
+
+.button .stu:hover,
+.button .stu:active {
+  color: var(--primty-brand);
+}
+
+.button .stu {
+  color: #ffffff;
+  background-color: var(--primty-brand);
+}
+
+/* sections */
+
+.section-title {
+  color: var(--title-text-color);
+}
+
+/* adventages */
+.adventages {
+  list-style: none;
+}
+
+.adventages-title {
+font-size: 20px;
+font-weight: 500;
+line-height: 24px;
+letter-spacing: 0.02em;
+text-align: left;
+
+}
+
+/* What are we doing */
+
+/* footer */
+
+.foot-site {
+  background-color: var(--title-text-color);
+  color: var(--footer-text-color);
+}
+
+.logo-footer {
+  text-decoration: none;
+  color: var(--footer-text-color);
+  text-transform: uppercase;
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 21px;
+  letter-spacing: 0.03em;
+}
+
+.logo-footer .web {
+  color: var(--primty-brand);
 }
