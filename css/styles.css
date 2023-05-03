@@ -34,14 +34,9 @@ body {
 
 .list {
   list-style: none;
+  text-decoration: inherit;
 }
 
-.site-nav a {
-  color: var(--accent);
-  text-decoration: none;
-}
-
-.site-nav a:hover,
-.site-nav a:focus {
-  color: var(--CTA);
+.link {
+  color: red;
 }
