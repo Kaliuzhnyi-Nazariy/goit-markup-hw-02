@@ -37,6 +37,6 @@ body {
   text-decoration: inherit;
 }
 
-.link {
+.site-nav> .link {
   color: red;
 }
