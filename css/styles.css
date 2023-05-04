@@ -155,11 +155,11 @@ body {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
-  
+  color: var(--title-text-color);
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
-  
+  text-align: center;
 }
 
 /* team */
@@ -169,6 +169,14 @@ body {
   font-weight: 500;
   line-height: 24px;
   letter-spacing: 0.02em;
+}
+
+.prof {
+  font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+text-align: center;
+letter-spacing: 0.02em;
 }
 
 /* portfolio */
