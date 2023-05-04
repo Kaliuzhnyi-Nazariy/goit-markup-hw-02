@@ -87,7 +87,7 @@ body {
 
 .stu {
   color: #ffffff;
-  background-color: var(--primty-brand);
+  background-color: var(--CTA);
 }
 
 .stu:hover,
