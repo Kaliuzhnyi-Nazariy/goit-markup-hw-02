@@ -216,16 +216,16 @@ background-color: var(--primary-white);
 
 .logo-footer {
   text-decoration: none;
-  color: var(--footer-text-color);
+  color: var(--primty-brand);
   text-transform: uppercase;
-  font-family: "Raleway";
+  font-family: "Raleway", sans-serif;
   font-style: normal;
   font-weight: 800;
   font-size: 18px;
-  line-height: 21px;
+  line-height: 1.17;
   letter-spacing: 0.03em;
 }
 
 .logo-footer .web {
-  color: var(--primty-brand);
+  color:  var(--footer-text-color);
 }
