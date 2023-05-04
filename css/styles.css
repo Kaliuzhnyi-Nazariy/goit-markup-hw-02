@@ -62,13 +62,13 @@ body {
   font-style: normal;
 }
 
-.address .list:hover,
-.address .list:focus {
+.address .link:hover,
+.address .link:focus {
   list-style: none;
   color: var(--CTA);
 }
 
-.address .list {
+.address .link {
   text-decoration: none;
   color: var(--general-text-color);
 }
