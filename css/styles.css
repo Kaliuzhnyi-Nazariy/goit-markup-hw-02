@@ -179,6 +179,7 @@ body {
   font-weight: 500;
   line-height: 24px;
   letter-spacing: 0.02em;
+  color: var(--title-text-color);
 }
 
 .prof {
@@ -187,6 +188,10 @@ font-size: 16px;
 line-height: 1.5;
 text-align: center;
 letter-spacing: 0.02em;
+}
+
+.team .card {
+background-color: var(--primary-white);
 }
 
 /* portfolio */
