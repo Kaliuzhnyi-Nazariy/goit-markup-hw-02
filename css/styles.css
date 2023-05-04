@@ -80,7 +80,7 @@ body {
   font-family: "Roboto", sans-serif;
   font-size: 16px;
   font-weight: 500;
-  line-height: 24px;
+  line-height: 1.5;
   letter-spacing: 0.04em;
   text-align: center;
   cursor: pointer;
@@ -98,7 +98,7 @@ body {
 
 .port {
   color: var(--primty-brand);
-  background-color: var(--port-but);
+  background-color: var(--team-bg);
 }
 
 .port:hover,
