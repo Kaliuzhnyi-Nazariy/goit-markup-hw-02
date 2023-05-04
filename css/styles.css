@@ -88,7 +88,7 @@ body {
 
 .stu {
   color: #ffffff;
-  background-color: var(--CTA);
+  background-color: var(--primty-brand);
 }
 
 .stu:hover,
@@ -195,6 +195,10 @@ background-color: var(--primary-white);
 }
 
 /* portfolio */
+
+.hide-title {
+  visibility: hidden;
+}
 
 .examples {
   list-style: none;
