@@ -12,7 +12,7 @@ body {
   font-family: "Roboto", sans-serif;
   background-color: #ffffff;
   font-style: normal;
-  font-weight: 400;
+  font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -23,11 +23,11 @@ body {
   text-decoration: none;
   color: var(--title-text-color);
   text-transform: uppercase;
-  font-family: "Raleway";
+  font-family: "Raleway", sans-serif;
   font-style: normal;
   font-weight: 800;
   font-size: 18px;
-  line-height: 1.16;
+  line-height: 1.17;
   letter-spacing: 0.03em;
 }
 
@@ -47,25 +47,25 @@ body {
 
 .site-nav .link:hover,
 .site-nav .link:focus {
-  color: var(--primty-brand);
+  color: var(--CTA);
 }
 
 /* address */
 
 .address {
   list-style: none;
+  font-style: normal;
 }
 
 .address a:hover,
 .address a:focus {
   list-style: none;
-  color: var(--primty-brand);
+  color: var(--CTA);
 }
 
 .address a {
   text-decoration: none;
   color: var(--general-text-color);
-  font-style: normal;
 }
 
 /* buttons */
