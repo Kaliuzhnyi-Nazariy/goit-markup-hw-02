@@ -21,7 +21,7 @@ body {
 /* logo */
 .logo {
   text-decoration: none;
-  color: var(--title-text-color);
+  color: var(--primty-brand);
   text-transform: uppercase;
   font-family: "Raleway", sans-serif;
   font-style: normal;
@@ -32,7 +32,7 @@ body {
 }
 
 .web {
-  color: var(--primty-brand);
+  color: var(--title-text-color);
 }
 
 /* nav */
@@ -46,7 +46,8 @@ body {
 }
 
 .site-nav .link:hover,
-.site-nav .link:focus {
+.site-nav .link:focus,
+.site-nav .link:active {
   color: var(--CTA);
 }
 
