@@ -3,6 +3,9 @@
   --footer-text-color: #f4f4fd;
   --title-text-color: #2e2f42;
   --primty-brand: #4d5ae5;
+  --CTA: #404bbf;
+  --port-but: #e7e9fc;
+  --primary-wite: #ffffff;
 }
 
 body {
@@ -68,22 +71,33 @@ body {
 /* buttons */
 
 .button {
-  font-family: Roboto;
   font-size: 16px;
   font-weight: 500;
   line-height: 24px;
   letter-spacing: 0.04em;
   text-align: center;
+  cursor: pointer;
 }
 
-.button .stu:hover,
-.button .stu:active {
-  color: var(--primty-brand);
-}
-
-.button .stu {
+.stu {
   color: #ffffff;
   background-color: var(--primty-brand);
+}
+
+.stu:hover,
+.stu:active {
+  background-color: var(--CTA);
+}
+
+.port {
+  color: var(--primty-brand);
+  background-color: var(--port-but);
+}
+
+.port:hover,
+.port:focus {
+  color: var(--primary-wite);
+  background-color: var(--CTA);
 }
 
 /* sections */
@@ -98,15 +112,23 @@ body {
 }
 
 .adventages-title {
-font-size: 20px;
-font-weight: 500;
-line-height: 24px;
-letter-spacing: 0.02em;
-text-align: left;
-
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  text-align: left;
 }
 
 /* What are we doing */
+
+/* team */
+
+.team-name {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+}
 
 /* footer */
 
