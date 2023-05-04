@@ -6,6 +6,7 @@
   --CTA: #404bbf;
   --port-but: #e7e9fc;
   --primary-white: #ffffff;
+  --team-bg: #F4F4FD;
 }
 
 body {
@@ -133,6 +134,10 @@ body {
   list-style: none;
 }
 
+.adv-title {
+  visibility: hidden;
+}
+
 .adventages-title {
   color: var(--title-text-color);
   font-size: 20px;
@@ -140,7 +145,6 @@ body {
   line-height: 24px;
   letter-spacing: 0.02em;
   text-align: left;
-  visibility: hidden;
 }
 
 .adventages .text {
@@ -163,6 +167,10 @@ body {
 }
 
 /* team */
+
+.team {
+  background-color: var(--team-bg);
+}
 
 .team-name {
   font-size: 20px;
