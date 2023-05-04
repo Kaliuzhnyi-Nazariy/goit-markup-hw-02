@@ -5,7 +5,7 @@
   --primty-brand: #4d5ae5;
   --CTA: #404bbf;
   --port-but: #e7e9fc;
-  --primary-wite: #ffffff;
+  --primary-white: #ffffff;
 }
 
 body {
@@ -101,7 +101,7 @@ body {
 
 .port:hover,
 .port:focus {
-  color: var(--primary-wite);
+  color: var(--primary-white);
   background-color: var(--CTA);
 }
 
@@ -109,6 +109,17 @@ body {
 
 /* sections */
 
+/* hero */
+
+.hero {
+  background-color: var(--title-text-color);
+  color: var(--primary-white);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.1;
+  letter-spacing: 0.02em
+}
 .section-title {
   color: var(--title-text-color);
 }
