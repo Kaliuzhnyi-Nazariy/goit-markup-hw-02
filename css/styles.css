@@ -31,6 +31,10 @@ body {
   letter-spacing: 0.03em;
 }
 
+.logo .link {
+  text-decoration: none;
+}
+
 .web {
   color: var(--title-text-color);
 }
@@ -58,13 +62,13 @@ body {
   font-style: normal;
 }
 
-.address a:hover,
-.address a:focus {
+.address .ad-nav:hover,
+.address .ad-nav:focus {
   list-style: none;
   color: var(--CTA);
 }
 
-.address a {
+.address .ad-nav {
   text-decoration: none;
   color: var(--general-text-color);
 }
