@@ -92,7 +92,7 @@ body {
 }
 
 .stu:hover,
-.stu:active {
+.stu:focus {
   background-color: var(--CTA);
 }
 
