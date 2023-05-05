@@ -211,7 +211,7 @@ background-color: var(--primary-white);
   letter-spacing: 0.02em;
 }
 
-.hide-title .list {
+.examples .list {
   list-style: none;
   text-decoration: none;
 }
