@@ -222,6 +222,10 @@ background-color: var(--primary-white);
   text-decoration: none; 
 }
 
+
+.examples .text {
+  color: var(--general-text-color);
+}
 /* footer */
 
 .foot-site {
